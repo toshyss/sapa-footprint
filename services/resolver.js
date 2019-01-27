@@ -26,10 +26,6 @@ const resolver = {
             .where("id", param.id)
             .update(param.input)
             .returning()
-            // .then(() => {
-            //     return knex("sapa")
-            //         .select()
-            // })
             .then((data) => {
                 return data;
             })

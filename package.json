@@ -9,7 +9,7 @@
     "start": "node ./src/index.js",
     "migrate": "knex migrate:latest --knexfile services/db/knexfile.js",
     "rollback": "knex migrate:rollback --knexfile services/db/knexfile.js ",
-    "seed": "knex seed:make test_sapa --knexfile services/db/knexfile.js"
+    "seed": "knex seed:run --knexfile services/db/knexfile.js"
   },
   "author": "toshyss",
   "license": "UNLICENSED",
