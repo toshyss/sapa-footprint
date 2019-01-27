@@ -1,5 +1,7 @@
 # SA PA Footprint
 
+- This was created during my time as a student at Code Chrysalis
+
 - need postgresql
 
 ## Setup
